@@ -65,6 +65,9 @@ endif
 :set shiftwidth=0
 :set expandtab
 
+" show line numbers by default
+:set number
+
 " copy the indentation from previous line
 :set autoindent
 
@@ -93,4 +96,6 @@ endif
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdcommenter'
 Plug 'w0rp/ale'
+Plug 'pangloss/vim-javascript'
+Plug 'tpope/vim-surround'
 call plug#end()
